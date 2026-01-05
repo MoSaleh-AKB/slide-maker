@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Output
+output/
+*.pptx
+*.pdf
+
+# Temp files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# Test coverage
+coverage/
+
+# Build artifacts
+dist/
+build/
