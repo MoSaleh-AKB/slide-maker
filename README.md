@@ -249,9 +249,7 @@ slide-maker/
 │   ├── templates/      # Template engine
 │   ├── images/         # Image handling
 │   ├── charts/         # Chart builder
-│   └── utils/          # Utilities
-├── themes/             # CSS theme files
-├── templates/          # HTML templates
+│   └── utils/          # Utilities (incl. rtl.js)
 ├── examples/           # Sample files
 └── docs/               # Documentation
 ```
@@ -262,7 +260,7 @@ slide-maker/
 # English example
 npm run example:simple
 
-# Persian RTL example
+# Persian RTL example (note: this script passes `--direction rtl`, but the CLI accepts only left, right or auto)
 npm run example:persian
 ```
 
